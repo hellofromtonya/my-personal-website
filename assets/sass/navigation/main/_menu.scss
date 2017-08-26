@@ -1,0 +1,23 @@
+.menu {
+  padding: 40px 20px;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1;
+  text-align: left;
+  list-style: none;
+
+  @media screen and (min-width: 767px) and (max-width: 1025px) {
+    padding-top: 80px;
+  }
+}
+
+.menu__container-social {
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    padding-right: 10px;
+  }
+}

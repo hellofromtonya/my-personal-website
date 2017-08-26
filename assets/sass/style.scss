@@ -1,0 +1,34 @@
+// Set runtime options
+$use-flash: true;
+$use-hinge: true;
+$use-fadeInLeftBig: true;
+$use-bounceInDown: true;
+$use-fadeIn: true;
+$use-fadeOut: true;
+$user-slideInUp: true;
+$use-slideInRight: true;
+$use-slideOutLeft: true;
+$use-slideOutRight: true;
+
+// Config
+// debug one
+//$imagePath: '../../images';
+// production one
+$imagePath: '../../../images';
+
+// Dependencies
+@import "bourbon";
+@import "neat";
+@import "../../node_modules/sass-rem/rem";
+
+// Base stuff
+@import "utilities/index";
+@import "base/index";
+
+@import "layout/index";
+@import "navigation/index";
+@import "modules/index";
+
+@import "sections/index";
+
+@import "overrides/index";

@@ -1,0 +1,69 @@
+.about--adjectives {
+  h3 {
+    text-align: left;
+    color: $green;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 40px auto 80px;
+  }
+
+  li {
+    display: inline-block;
+  }
+}
+
+.about--adjective {
+  border-radius: 50%;
+  text-align: center;
+  height: 125px;
+  width: 125px;
+  line-height: 115px;
+  padding: 10px;
+  color: $blue;
+  @include rem(font-size, 14);
+
+  @include media($small-screen-up) {
+    @include rem(font-size, 16);
+  }
+
+  @include media($medium-screen-up) {
+    @include rem(font-size, 18);
+  }
+
+  &.blue, &.olive {
+    color: $white;
+  }
+
+  &.neon {
+    background-color: $neon;
+  }
+  &.gray {
+    background-color: $gray;
+  }
+  &.yellow {
+    background-color: $yellow;
+  }
+  &.yellow-light {
+    background-color: lighten($yellow, 10%);
+  }
+  &.orange {
+    background-color: $orange;
+  }
+  &.orange-light {
+    background-color: $orangeLight;
+  }
+  &.blue {
+    background-color: $blue;
+  }
+  &.olive {
+    background-color: $olive;
+  }
+  &.green {
+    background-color: $green;
+  }
+  &.red {
+    background-color: $red;
+  }
+}

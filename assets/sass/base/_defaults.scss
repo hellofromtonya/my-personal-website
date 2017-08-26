@@ -1,0 +1,95 @@
+/*
+Defaults
+---------------------------------------------------------------------------------------------------- */
+
+/* Typographical Elements
+--------------------------------------------- */
+
+html, body {
+	//overflow-x: hidden;
+	position: relative;
+}
+
+body {
+	background-color: $white;
+	color: $darkBlue;
+	font-family: $sans-serif;
+	font-size: $base-font-size;
+	@media screen and (min-width: 767px) {
+		font-size: 20px;
+	}
+	font-weight: 400;
+	line-height: $base-line-height;
+	text-align: left;
+}
+
+a,
+button {
+	transition: all 0.1s ease-in-out;
+}
+
+::-moz-selection {
+	background: $black;
+	color: $white;
+}
+
+::selection {
+	background: $black;
+	color: $white;
+}
+
+a {
+	color: $orange;
+	font-weight: 700;
+	text-decoration: none;
+	word-wrap: break-word;
+
+	&.underline {
+		border-bottom: 1px dotted;
+	}
+
+	img {
+		margin-bottom: -4px;
+	}
+
+	&:hover, &:focus {
+		color: $green;
+	}
+
+	&:active, &:hover, &:focus, & {
+		outline: none;
+	}
+}
+
+p {
+	margin: 0 0 24px;
+	padding: 0;
+}
+
+strong {
+	font-weight: 700;
+}
+
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+
+	&.list--indent {
+		margin-left: 40px;
+
+		@media screen and (min-width: $full-layout--screen) {
+			margin-left: 60px;
+		}
+	}
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto; /* IE8 */
+}
+
+.hide {
+	display: none;
+}

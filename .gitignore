@@ -1,0 +1,14 @@
+# Unit tests config
+phpunit.xml
+.travis.yml
+/bin
+tests/mocks/env/
+
+# Development files
+/node_modules
+#assets/vendors
+.idea/
+.htaccess
+
+# blog
+blog/

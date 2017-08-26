@@ -1,0 +1,11 @@
+.button {
+  background-color: $orange;
+  color: $white;
+  padding: 10px 20px;
+  margin: 30px auto 0;
+
+  &:focus, &:hover {
+    background-color: $white;
+    color: $orange;
+  }
+}

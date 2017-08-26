@@ -1,0 +1,25 @@
+dl.faq {
+  dt {
+    border-top: 1px dotted $sidebar--color;
+    border-bottom: 1px dotted $sidebar--color;
+  }
+  dt, dd {
+    margin-bottom: 20px;
+    &::before {
+      content: 'Q:';
+      background-color: $background--accent-color;
+      margin-right: 10px;
+      color: $green;
+      font-size: 120%;
+      padding: 10px;
+    }
+
+  }
+  dd {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    &::before {
+      content: 'A:';
+    }
+  }
+}

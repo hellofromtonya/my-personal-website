@@ -1,0 +1,43 @@
+.section {
+  position: relative;
+  padding-top: 5vh;
+
+  @media screen and (min-width: $full-layout--screen) {
+    padding-top: 20vh;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 20vh;
+  }
+}
+
+.page--title {
+  font-size: 16px;
+  display: inline;
+
+  &::before, &::after {
+    content: "";
+    position: absolute;
+    bottom: 11px;
+    right: 0;
+    left: auto;
+    width: 0;
+    height: 3px;
+    z-index: 2;
+
+    transition: all .25s cubic-bezier(.694,.048,.335,1) .15s;
+  }
+
+  &::before {
+    background-color: #235aa6;
+  }
+
+  &::after {
+    background-color: #f25757;
+  }
+}
+
+.my-picture {
+  max-width: 500px;
+  margin: 40px auto;
+}

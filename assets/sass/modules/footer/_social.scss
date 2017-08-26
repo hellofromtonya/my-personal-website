@@ -1,0 +1,11 @@
+.sticky-footer__social {
+  position: absolute;
+  left: 0;
+  text-align: left;
+  width: 150px;
+
+  a {
+    color: $white;
+    margin-left: 20px;
+  }
+}

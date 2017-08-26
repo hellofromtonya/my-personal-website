@@ -1,0 +1,8 @@
+@keyframes highlighter {
+  0%, 50% {
+    background-color: $orange;
+  }
+  100% {
+    background-color: transparent;
+  }
+}

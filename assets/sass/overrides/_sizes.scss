@@ -1,0 +1,12 @@
+
+// range of 20% to 100%
+// step of 5
+// 20%, 25%, 30%, etc.
+@for $num from 4 through 20 {
+
+  $percent: $num * 5;
+
+  .--width-#{$percent}p {
+    width: percentage($percent * 0.01);
+  }
+}

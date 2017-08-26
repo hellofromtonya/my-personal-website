@@ -1,0 +1,38 @@
+.splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100001;
+  transition: all 0.5s 0.2s ease-out;
+
+  @include display(flex);
+  @include flex-direction(column);
+  @include justify-content(center);
+}
+
+.splash__left-panel, .splash__right-panel {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: $black;
+  background-image: url(#{$imagePath}/graphy.png);
+
+  &.slideOutLeft, &.slideOutRight {
+    @include animate-prefixer(animation-duration, 2s);
+  }
+}
+
+.splash__left-panel {
+  left: 0;
+}
+
+.splash__right-panel {
+  right: 0;
+}
+
+.splash__message {
+  z-index: 100002;
+}
