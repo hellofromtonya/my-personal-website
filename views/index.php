@@ -49,7 +49,7 @@
 		</main>
 		<?php require $views_dir . '/fixed-assets/sidebar-right.php'; ?>
 		<footer class="site--footer">
-			<p>&copy 2016 Tonya Mork &middot; reach me: hello ( at ) hellofromtonya.com</p>
+			<p>&copy 2016-<?php echo date('Y'); ?> Tonya Mork &middot; reach me: hello ( at ) hellofromtonya.com &middot; Be Kind. Excel.</p>
 		</footer>
 	</div>
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>

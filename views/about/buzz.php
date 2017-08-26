@@ -22,6 +22,6 @@
 				<a href="http://officehours.fm/podcast/72-2/" target="_blank">Tonya &amp; the WP Developer’s Club, Episode 72</a> – by Carrie Dils on OfficeHours.FM – 2015
 			</li>
 		</ul>
-		<img class="my-picture" src="<?php echo $assets_dir; ?>/images/tonya-mork.jpg" width="584.5" height="517.5">
+		<img class="my-picture" src="/assets/images//tonya-mork-300px.jpg" width="300" height="266" srcset="/assets/images/tonya-mork-600px.jpg 768w, /assets/images/tonya-mork.jpg 1280w">
 	</div>
 </section>
