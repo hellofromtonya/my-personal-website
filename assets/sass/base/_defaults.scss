@@ -87,7 +87,8 @@ ul {
 img {
 	max-width: 100%;
 	height: auto;
-	width: auto; /* IE8 */
+	width: auto; // IE8
+	vertical-align: middle;
 }
 
 .hide {

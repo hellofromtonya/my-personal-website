@@ -16,13 +16,13 @@
                 <a href="#we">We</a>
             </li>
             <li>
+                <a href="<?php echo $site_url; ?>/about/">About</a>
+            </li>
+            <li>
                 <a href="<?php echo $site_url; ?>/manifesto">Manifesto</a>
             </li>
             <li>
                 <a href="<?php echo $site_url; ?>/blog/">Blog</a>
-            </li>
-            <li>
-                <a href="#faq">FAQ</a>
             </li>
         </ul>
     </nav>
