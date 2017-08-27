@@ -1,3 +1,3 @@
 ;(function() {
-	console.log("Don't forget to be kind to someone today." );
+	console.log("Don't forget to be kind to someone today. Go Excel." );
 })();

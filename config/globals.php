@@ -3,7 +3,7 @@
  * Global runtime configuration
  *
  * @package     HelloFromTonya
- * @since       1.5.2
+ * @since       1.5.4
  * @author      hellofromTonya
  * @link        https://hellofromtonya.com
  * @license     GNU-2.0+
@@ -14,7 +14,7 @@ $site_url = DEV_ENV === true
 	? 'http://hellofromtonya.dev'
 	: 'https://hellofromtonya.com';
 
-$version = '1.5.2';
+$version = '1.5.4';
 
 $title       = 'Hello from Tonya | Engineer. Educator. Mentor. Advisor. Author.';
 $description = "Hello, I'm Tonya. Engineer. Educator. Mentor. Advisor. Author. I unlock potential in people and technology. Specializing in engineering, software, web development, and project management.";

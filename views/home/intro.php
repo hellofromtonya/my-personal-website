@@ -4,6 +4,7 @@
         <div class="section--content wrap">
             <h1><span>Hello</span>, I'm Tonya</h1>
             <h2><span>Engineer</span> Educator <span>Mentor</span> Advisor <span>Author</span></h2>
+            <h2><em>Be Kind. <span>Go Excel.</span></em></h2>
         </div>
     </div>
 
