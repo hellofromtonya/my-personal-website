@@ -17,7 +17,7 @@
                 <a href="#we">We</a>
             </li>
             <li>
-                <a href="<?php echo $site_url; ?>/about/">About</a>
+                <a href="<?php echo $site_url; ?>/about">About</a>
             </li>
             <li>
                 <a href="<?php echo $site_url; ?>/manifesto">Manifesto</a>
