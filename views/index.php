@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="canonical" href="<?php echo $url; ?>">
 	<meta name="description" content="<?php echo $description; ?>">
+
 	<meta property="og:title" name="og:title" content="<?php echo $title; ?>">
 	<meta property="og:locale" name="og:locale" content="en_US">
 	<meta property="og:type" name="og:type" content="website">
@@ -16,17 +17,22 @@
 	<meta property="og:image" content="<?php echo $og_image; ?>">
 	<meta property="og:image:width" content="1200">
 	<meta property="og:image:height" content="630">
+
 	<meta property="twitter:card" name="twitter:card" content="summary_large_image">
 	<meta property="twitter:title" content="<?php echo $title; ?>">
 	<meta name="twitter:description" content="<?php echo $description; ?>">
 	<meta name="twitter:site" content="@hellofromtonya">
 	<meta property="twitter:image" content="<?php echo $twitter_image; ?>">
 	<meta property="twitter:creator" name="twitter:creator" content="@hellofromtonya">
+
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//ssl.google-analytics.com">
 	<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Oswald|Source+Sans+Pro" rel="stylesheet" type="text/css">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display|Oswald|Source+Sans+Pro">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="<?php echo get_stylesheet_src(); ?>" type="text/css" media="all">
+
 	<link rel="shortcut icon" href="<?php echo $assets_dir; ?>/images/favicon.jpg">
 	<link rel="apple-touch-icon" href="<?php echo $assets_dir; ?>/images/apple-touch-icon.jpg">
 	<meta name="google-site-verification" content="D6l_tyM6ACwkToJWQtTuj0HvSjRCoAdLlRemVKz21aA" />
