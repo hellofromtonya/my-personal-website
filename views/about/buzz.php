@@ -23,7 +23,8 @@
 			</li>
 		</ul>
 		<img src="/assets/images/tonya-mork.jpg"
-             sizes="(min-width: 900px) 600px, (min-width: 1500px) 1000px, 300px"
-             srcset="/assets/images/tonya-mork-300px.jpg 300w, /assets/images/tonya-mork-600px.jpg 600w, /assets/images/tonya-mork_2x.jpg 1000w, /assets/images/tonya-mork_2x.jpg 2x, /assets/images/tonya-mork_1x.jpg 1x">
+             sizes="(min-width: 700px) 600px, (min-width: 1500px) 1000px, 300px"
+             srcset="/assets/images/tonya-mork-300px.jpg 300w, /assets/images/tonya-mork-600px.jpg 600w, /assets/images/tonya-mork_2x.jpg 1000w"
+             alt="Picture of Tonya Mork">
 	</div>
 </section>

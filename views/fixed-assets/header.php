@@ -25,7 +25,7 @@
             c-5,9.1-6.8,20.2-3.7,22.8c3.4,2.8,10.7-1.4,16.6-12.5c1.8-3.4,3.2-6.7,4.2-9.6C177.8,58,177.1,57.5,176.4,56.9z M180.4,46.2
             c-0.6-3.8-3-3.1-3.6,0.4c-0.6,3.2,0.7,6.7,2.6,8.5C180.4,51.4,180.8,48.4,180.4,46.2z"/>
             </svg>
-            <img src="<?php echo $assets_dir; ?>/images/hellofromtonya.jpg" width="50" height="50" class="hellofromtonya__avatar animated bounceInDown">
+            <img src="<?php echo $assets_dir; ?>/images/hellofromtonya.jpg" width="50" height="50" class="hellofromtonya__avatar animated bounceInDown" alt="Avatar of Tonya Mork">
         </a>
         <div class="background--text">hello</div>
         <div id="hamburger-menu--mobile" class="hamburger--menu hamburger-menu--mobile">

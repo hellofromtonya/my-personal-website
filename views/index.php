@@ -29,7 +29,7 @@
     <link rel="dns-prefetch" href="//ssl.google-analytics.com">
 	<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
 
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display|Oswald|Source+Sans+Pro">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display%7cOswald%7cSource+Sans+Pro">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="<?php echo get_stylesheet_src(); ?>" type="text/css" media="all">
 
@@ -55,7 +55,7 @@
 		</main>
 		<?php require $views_dir . '/fixed-assets/sidebar-right.php'; ?>
 		<footer class="site--footer">
-			<p>&copy 2016-<?php echo date('Y'); ?> Tonya Mork &middot; reach me: hello ( at ) hellofromtonya.com &middot; Be Kind. Excel.</p>
+			<p>&copy; 2016-<?php echo date('Y'); ?> Tonya Mork &middot; reach me: hello ( at ) hellofromtonya.com &middot; Be Kind. Excel.</p>
 		</footer>
 	</div>
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>

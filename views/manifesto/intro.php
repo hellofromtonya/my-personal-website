@@ -12,10 +12,10 @@
     <nav class="nav--hero">
         <ul>
             <li>
-                <a href="#overview">Overview</span></a>
+                <a href="#overview">Overview</a>
             </li>
             <li>
-                <a href="#human">Human</span></a>
+                <a href="#human">Human</a>
             </li>
             <li>
                 <a href="#professional">Professional</a>

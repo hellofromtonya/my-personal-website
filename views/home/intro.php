@@ -11,7 +11,7 @@
     <nav class="nav--hero">
         <ul>
             <li>
-                <a href="#me">Me</span></a>
+                <a href="#me">Me</a>
             </li>
             <li>
                 <a href="#we">We</a>

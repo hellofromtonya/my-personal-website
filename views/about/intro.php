@@ -12,7 +12,7 @@
     <nav class="nav--hero">
         <ul>
             <li>
-                <a href="#attributes">Attributes</span></a>
+                <a href="#attributes">Attributes</a>
             </li>
             <li>
                 <a href="#elevator-speech">Nutshell</a>

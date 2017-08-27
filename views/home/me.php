@@ -3,7 +3,7 @@
 	<div class="wrap">
 		<div class="section--content content--left">
 			<h2 class="section--title title--left">About Me</h2>
-			<p>Hum, let's see. How do you sum up who you are in just a few paragraphs? How about if I share a few attributes here.  Then to learn more about little ole me, you can head over to my <a href="<?php echo $site_url; ?>/about">about</a> page.</a></p>
+			<p>Hum, let's see. How do you sum up who you are in just a few paragraphs? How about if I share a few attributes here.  Then to learn more about little ole me, you can head over to my <a href="<?php echo $site_url; ?>/about">about page</a>.</p>
 			<dl class="grid-boxed --col2 --row-reverse --checkered">
 				<dt class="grid-block">My Mission</dt>
                 <dd class="grid-block"><p>My mission is to create betterment opportunities for all of us.  I wish to give of myself, share knowledge, and help contribute to a better world.</p></dd>
